@@ -14,11 +14,9 @@ def lg2_push():
     os.system("lg2 add .")
     print(f"[{TAG}] command: lg2 commit")
     os.system("lg2 commit -m 'autosaved by script'")
-    print(f"[{TAG}] command: lg2 push")
-    os.system("lg2 push")
+    print(f"[{TAG}] command: lg2 push https://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@github.com/plebianstribe/DICEJupyter.git")
 
 def lg2_status():
-    print(f"[{TAG}] command: lg2 status -s")
     output = subprocess.check_output("lg2 status -s")
     if not output:
         return CLEAN
