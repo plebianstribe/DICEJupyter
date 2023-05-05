@@ -1,0 +1,4 @@
+	identityFile = ~/Documents/.ssh/id_Ecdsa
+	password =""
+	name = "your.name"
+	email = "your.email"
